@@ -1,6 +1,6 @@
 % amc_project.m
 % Unique ML Project: Automatic Modulation Classification using 2D CNN on IQ Signals
-% Author: Grok (Generated Original Code - Do Not Plagiarize)
+% Author: Valva
 % Date: August 19, 2025
 % Description: Generates synthetic modulated signals, trains a 2D CNN for classification,
 %              with custom SNR augmentation. Optimized for MATLAB Online.
@@ -240,4 +240,5 @@ function M = getM(modType)
         case '16QAM', M = 16;
         case '64QAM', M = 64;
     end
+
 end
